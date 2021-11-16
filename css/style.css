@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html{
+    font-size: 15px;
+}
+
+/* header start here */
+
+header{
+    width: 100%;
+    background: linear-gradient(to right, #42275a, #734b6d); 
+}
+
+header hr{
+    border: 0.1px solid gray;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 5%;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banner{
+    width: 45%;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.get-started{
+    width: 45%;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+button{
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color:#00A36C;
+    font-weight: 600;
+    font-size: .8rem;
+    margin-top: 2rem;
+    letter-spacing:0.1rem;
+}
+
+/* sec-2 start here */
+
+.sec-1{
+    width: 45%;
+    text-align: left;
+
+}
+
+.sec-1 h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(65, 62, 62);
+}
+
+.sec-1 p{
+    font-size:1.2rem;
+    color: gray;
+    line-height: 1.8rem;
+    margin-top: 2rem;
+
+}
+
+.sec-1 .learn-more{
+    width: 130px;
+    height: 30px;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 50px;
+    color:gray;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: .8rem;
+
+}
+
+.sec-2{
+    width: 45%;
+    text-align: left;
+}
+
+.sec-2 a{
+    font-size: 1.2rem;
+    color: gray;
+    line-height: 3rem;
+    text-decoration: none;
+    margin-left: 0.8rem;
+}
+
+.sec-2 .fa{
+    color:#00A36C;
+    font-size: 1.3rem;
+}
+
+/* image-sec start here  */
+
+.image{
+    width: 30%;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+    width: 65%;
+    text-align: left;
+   
+}
+
+.text h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(65, 62, 62);
+    margin-top: 3rem;
+}
+
+.text p{
+    font-size:1.1rem;
+    color: gray;
+    line-height: 1.8rem;
+    margin-top: 1rem;
+
+}
+
+.text .learn-more{
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 50px;
+    color:gray;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: .8rem;
+
+}
+
+.margin-bottom{
+    margin-bottom: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+div{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.big-button{
+
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 50px;
+    color:gray;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 0;
+    
+}
+
+/* contact-us start here */
+
+.contact-us{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5% 5% 5%;
+}
+
+.form h1{
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: rgb(65, 62, 62);
+}
+
+.form p{
+    font-size:1.1rem;
+    color: gray;
+    line-height: 1.8rem;
+    margin: 1rem 0;
+
+}
+
+.form .learn-more{
+    width: 130px;
+    height: 30px;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 50px;
+    color:gray;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: .8rem;
+
+}
+
+.form{
+    width:45%;
+    text-align: left;
+}
+
+.width-2{
+    width: 100%;
+    /* text-align: left; */
+}
+
+/* .form .width{
+    width: 50%;
+    margin: 0;
+} */
+
+input{
+    width:48%;
+    padding: 0.4rem;
+    margin: 0;
+}
+
+textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.social{
+    width: 45%;
+    text-align: left;
+}
+
+.social a{
+    font-size: 1.2rem;
+    color: gray;
+    line-height: 3rem;
+    text-decoration: none;
+    margin-left: 0.8rem;
+}
+
+.social .fa{
+    color:#00A36C;
+    font-size: 1.3rem;
+    display: block;
+}
+
+/* footer start here */
+
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+footer p{
+    color: gray;
+}
+
+
+/* media quary start here */
+
+@media(max-width:768px){
+
+    html{
+        font-size: 12px;
+    }
+
+    .banner{
+        width: 100%;
+       
+    }
+    
+    .get-started{
+        width: 100%;
+        margin-top: 2rem;
+       
+    }
+
+    .sec-1{
+        width:100%;
+    }
+
+    .sec-2{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    input{
+        width: 100%;
+        margin-top: 1.3rem;
+    }
+
+    .social{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .text .learn-more{
+       margin-bottom: 2rem;
+    
+    }
+
+}
